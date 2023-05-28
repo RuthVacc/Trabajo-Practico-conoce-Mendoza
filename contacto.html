@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ 
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="shortcut icon" href="./imagenes/montanas (1).png" type="image/x-icon">
+
+  <title>CONTACTO</title>
+</head>
+
+<body>
+  
+    <header>
+        <div class="contenedor">
+          <img width="100" src="./imagenes/LogoTransparente.png" alt="logo">
+          <h1 class="titulo-logo">ConocéMendoza</h1>
+          <input type="checkbox" id="menu-bar">
+          <label for="menu-bar"><img class="img-fluid" src="imagenes/agregar (1).png" alt="menu"></label>
+          <nav class="menu">
+            <a href="index.html" target="_blank">INICIO</a>
+            <a href="lugares.html" target="_blank">LUGARES</a>
+            <a href="contacto.html" target="_blank">CONTACTO</a>
+            <a href="clima.html">CLIMA</a>
+          </nav>
+        </div>
+    </header>
+    <br><br><br><br><br>
+
+    <main>
+    <div class="cuerpo">
+      <div class="jumbotron">
+        <h1 class="h1-form"><b>Contáctenos</b></h1>
+      </div>
+      <p class="p-form"><b>Consultanos para realizar tu actividad preferida.</b></p>
+      <div class="fcontacto">
+
+        <div class="logito">
+
+        <img src="LogoTransparente.ico" alt="Contactame">
+        </div>
+            <form id="formulario" onsubmit="return validarFormulario()">
+                    
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido"><br>
+
+              <label for="dni">Documento:</label>
+              <input type="text" id="dni" name="dni" placeholder="Ingrese su número "><br>
+
+              <label for="direccion">Email:</label>
+              <input type="text" id="direccion" name="direccion" placeholder="ejemplo@gmail.com"><br>
+
+              <label>Mensaje:</label>
+              <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su consulta"></textarea>
+
+              <input type="submit" value="Enviar">
+            </form>
+        </div>
+      
+    </div>
+    </main>
+<br>
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#" style= "text-decoration: none";>
+            <img src="./Imagenes/LogoTransparente.png" alt="Logo" />
+            <h3 title="Ir al Inicio">ConocéMendoza</h3>
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>
+            Descubre Mendoza con nosotros, la maravillosa provincia que tenemos los Argentinos.
+            Viví Mendoza, la tierra del sol y del buen vino, donde podes disfrutar de diferentes actividades al aire libre y las mejores aventuras en las montañas.
+        </p>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="https://www.facebook.com/Turismo.Mza" title="Facebook" target="_blank"><img width="45px" src="./Imagenes/facebook.png" alt="logo facebook"></a>
+          <a href="https://www.instagram.com/turismo.mendoza/" title="Instagram" target="_blank"><img width="45px" src="./Imagenes/instagram.png" alt="logo instagram"></a>
+          <a href="https://web.whatsapp.com/send?phone=+2617067038" title="WhatsApp" target="_blank"><img width="45px" src="./Imagenes/whatsapp.png" alt="logo whatsapp"></a>
+          <a href="mailto:infoturismo@mendoza.gov.ar" title="e-mail" target="_blank"><img width="45px" src="./Imagenes/mensaje.png" alt="logo mail"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>ConocéMendoza</b><br>
+      Desarrollado por: <i>Claudia Amengual</i>  <b>/</b> <i>Ruth Vaccari</i>  <b>/</b> <i>Julio Toribio</i></small>
+    </div>
+</footer>
+
+<script src="validacion.js"></script>
+
+</body>
+
+</html>

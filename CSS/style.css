@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bruno+Ace&family=Hind+Guntur&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bruno+Ace&family=Hind+Guntur&family=Montserrat:ital,wght@0,300;0,500;1,100&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url(slide.css);
+@import url(menu.css);
+@import url(tarjetas.css);
+@import url(slide2.css);
+@import url(footer.css);
+@import url(formul.css);
+@import url(lugares.css);
+@import url(clima.css);
+
+
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+   
+}
+
+.int , 
+
+body{
+    background-color: whitesmoke;
+}
+
+.titulo-logo{
+    float: left; 
+    font-family: 'Zeyada', cursive;
+    font-size:2.6rem;
+    color: white;
+    margin-top: 7px;
+    padding-left: 15px;
+}
+
+
+
+header{
+    width: 100%;
+    height: 67px;
+    background:#ffc4a1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+/*Seccion descripcion mendoza del index*/
+
+article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    color: black;
+    margin: 100px auto 0;
+}
+
+
+.int1 h1{
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.int1 h3{
+   
+    font-size: 1.8rem;
+    margin:20px 50px 30px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.int1 p{
+    margin:20px 50px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+.int2{
+  
+    text-align: center;
+    margin-top: 20px;
+    
+
+    
+}
+
+.int3 p {
+    margin: 40px 50px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.int4 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.int5 p{
+    margin: 20px 50px;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.int5 p:nth-child(3){
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .int2 img{
+        width: 80%;
+    }
+
+    .int4 img{
+        width: 80%;
+    }
+
+    article{
+        margin-top: 50px;
+    }
+
+    .int1 h3{
+        font-size: 1.26rem;
+
+    }
+
+
+}
+
+.contenedor img{     
+    float: left;
+    padding-top:5px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .int2 img{
+        width: 80%;
+    }
+
+    .int4 img{
+        width: 80%;
+    }
+
+}
+    
+
+@media only screen and (min-width: 768px) {
+    .int2 img{
+        width: 75%;
+    }
+
+    .int4 img{
+        width: 75%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 992px) {
+    .int2 img{
+        width: 65%;
+    }
+
+    .int4 img{
+        width: 65%;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .int2 img{
+        width: 65%;
+    }
+
+    .int4 img{
+        width: 65%;
+    }
+}
+
